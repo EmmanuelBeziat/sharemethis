@@ -18,14 +18,14 @@ class PopinShare {
 					<h3 class="dialog-title">Partager « ${this.data.title} »</h3>
 				</header>
 				<div class="targets">
-					<button type="button" class="share-button" data-type="facebook">Facebook</button>
-					<button type="button" class="share-button" data-type="x">X</button>
-					<button type="button" class="share-button" data-type="linkedin">LinkedIn</button>
-					<button type="button" class="share-button" data-type="email">Email</button>
+					<button type="button" class="share-button" data-type="facebook" aria-label="Share on Facebook"></button>
+					<button type="button" class="share-button" data-type="x" aria-label="Share on X"></button>
+					<button type="button" class="share-button" data-type="linkedin" aria-label="Share on LinkedIn"></button>
+					<button type="button" class="share-button" data-type="email" aria-label="Share by email"></button>
 				</div>
 				<div class="link">
 					<div class="share-url">${this.data.url}</div>
-					<button type="button" class="share-copy-link">Copy Link</button>
+					<button type="button" class="share-copy-link" aria-label="Copy link"></button>
 				</div>
 			</div>
     `
