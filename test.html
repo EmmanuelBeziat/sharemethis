@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test Share</title>
+	<style>
+		body {
+			font: 400 16px/1.35 "Segoe UI", Roboto, Arial, sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<button data-sharemethis>Share me this</button>
+
+	<script src="sharemethis.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const data = {
+				title: 'Emmanuel Béziat',
+				url: encodeURIComponent(window.location.href),
+				text: encodeURIComponent(document.title)
+			}
+			const sharemethis = new ShareMeThis('[data-sharemethis]', data, { fallbackOnly: true })
+		})
+	</script>
+</body>
+</html>

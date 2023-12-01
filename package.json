@@ -1,0 +1,25 @@
+{
+  "name": "sharemethis",
+  "version": "1.0.0",
+  "description": "Share plugin using Share API and a fallback for Firefox and others.",
+  "main": "sharemethis.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmanuelBeziat/sharemethis.git"
+  },
+  "keywords": [
+    "js",
+    "share-api"
+  ],
+  "author": {
+		"name": "Emmanuel Béziat",
+		"email": "contact@emmanuelbeziat.com"
+	},
+  "license": "MIT",
+  "scripts": {
+  },
+  "bugs": {
+    "url": "https://github.com/EmmanuelBeziat/sharemethis/issues"
+  },
+  "homepage": "https://github.com/EmmanuelBeziat/sharemethis#readme"
+}
