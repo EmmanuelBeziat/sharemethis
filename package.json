@@ -12,12 +12,11 @@
     "share-api"
   ],
   "author": {
-		"name": "Emmanuel Béziat",
-		"email": "contact@emmanuelbeziat.com"
-	},
-  "license": "MIT",
-  "scripts": {
+    "name": "Emmanuel Béziat",
+    "email": "contact@emmanuelbeziat.com"
   },
+  "license": "MIT",
+  "scripts": {},
   "bugs": {
     "url": "https://github.com/EmmanuelBeziat/sharemethis/issues"
   },
