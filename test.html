@@ -18,10 +18,10 @@
 		document.addEventListener('DOMContentLoaded', () => {
 			const data = {
 				title: 'Emmanuel Béziat',
-				url: encodeURIComponent(window.location.href),
+				url: window.location.href,
 				text: encodeURIComponent(document.title)
 			}
-			const sharemethis = new ShareMeThis('[data-sharemethis]', data, { fallbackOnly: true })
+			const sharemethis = new ShareMeThis('[data-sharemethis]', data, { fallbackOnly: false })
 		})
 	</script>
 </body>
